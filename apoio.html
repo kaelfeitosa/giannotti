@@ -4,5 +4,25 @@
     <title>#GreveGeral - Eu Apoio</title>
   <head>
   <body>
+    <form action="http://localhost:8081/apoiar" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="apoio_nome">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="apoio_email">
+      </div>
+
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="apoio_mensagem"></textarea>
+      </div>
+
+      <div class="button">
+        <button type="submit">Apoiar</button>
+      </div>
+    </form>
   </body>
 </html>
