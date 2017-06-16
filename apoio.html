@@ -2,27 +2,63 @@
 <html>
   <head>
     <title>#GreveGeral - Eu Apoio</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+      html, button {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      button {
+        background-color: transparent;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      button:hover {
+        background-color: gray;
+      }
+
+      form {
+        width: 310px;
+        margin: 100px auto;
+      }
+
+      input, label, textarea {
+        display: block;
+        font-size: 20px;
+        width: 300px;
+      }
+
+      label {
+        margin-top: 15px;
+      }
+
+      .vermelha {
+        background-color: #CF2227;
+      }
+
+    </style>
   <head>
-  <body>
+  <body class="vermelha">
     <form action="http://localhost:8081/apoiar" method="post">
-      <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="apoio_nome">
-      </div>
+      <label for="nome">NOME:</label>
+      <input type="text" id="nome" name="apoio_nome">
 
-      <div>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="apoio_email">
-      </div>
+      <label for="email">EMAIL:</label>
+      <input type="text" id="email" name="apoio_email">
 
-      <div>
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="apoio_mensagem"></textarea>
-      </div>
+      <label for="mensagem">MENSAGEM:</label>
+      <textarea id="mensagem" name="apoio_mensagem"></textarea>
 
-      <div class="button">
-        <button type="submit">Apoiar</button>
-      </div>
+      <button class="button" type="submit">APOIAR</button>
     </form>
   </body>
 </html>
