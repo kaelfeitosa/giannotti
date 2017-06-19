@@ -1,32 +1,32 @@
 # Roteiro
 
 1. Criar estrutura básica com título da página e visualização
-  1. html
-  1. head
-  1. body
+  * html
+  * head
+  * body
 1. Cria textos do cabeçalho
-  . h1
-  . p
+  * h1
+  * p
 1. Cria textos da primeira seção
-  . h2
-  . strong
+  * h2
+  * strong
 1. Cria cabeçalho
-  . header
+  * header
 1. Cria primeira seção
-  . section
+  * section
 1. Cria segunda seção como exercício
 1. Cria sessão com imagem
-  . img
-  . explicação sobre atributos
-  . src
-  . alt
+  * img
+  * explicação sobre atributos
+  * src
+  * alt
 1. Cria última sessão
 1. Cria rodapé com listagens
-  . footer
-  . a
-  . href
+  * footer
+  * a
+  * href
 1. Cria navegação com links
-  . nav
-  . explicação sobre ids
+  * nav
+  * explicação sobre ids
 1. Cria botão com link
-  . button
+  * button
