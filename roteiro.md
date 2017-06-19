@@ -1,9 +1,9 @@
 # Roteiro
 
 1. Criar estrutura básica com título da página e visualização
-  . html
-  . head
-  . body
+  1. html
+  1. head
+  1. body
 1. Cria textos do cabeçalho
   . h1
   . p
