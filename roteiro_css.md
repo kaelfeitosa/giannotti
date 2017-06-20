@@ -5,12 +5,16 @@
     * Sintaxe de tag no CSS tag { }
     * Sintaxe propriedade: valor;
     * Inspecionar no navegador
+    * Algumas tags tem formatação padrão dada pelo navegador
+    * Ordem das instruções: CSS do site > CSS do Navegador, Bloco de baixo > bloco de cima
 1. **Explica:** Família de fonte
     * Importar fonte
     * propriedade font-family
 1. *Aplica família da fonte*
     * importar
-    * html, button
+    * html
+    * button
+    * tags com mesmo valor
 1. **Explica:** Cor
     * Propriedade background-color
     * Nome da cor, hexadecimal, RGB
@@ -26,6 +30,10 @@
 1. **Explica:** Cor do Texto
     * Propriedade color
 1. *Aplica cor do texto*
+    * .vermelha
+    * .branca
+    * button
+    * refatorar html
 1. **Explica:** Espessura da Fonte
     * Propriedade font-weight
     * valor bold
@@ -39,9 +47,34 @@
     * Propriedade font-size
     * Unidade pixels
 1. *Aplica Tamanho do texto*
+    * h1 (24px)
+    * .data (64px)
+    * .chamada (24px)
+1. *Exercício: Formata h2*
+    * font-size: 48px;
+    * font-weight: bold;
+1. **Explica:** Espaçamentos
+    * Margin
+    * Padding
+    * Lados
+    * Unificado
+1. *Aplica Margins*
     * h1
     * p
-    * usa class
+    * body
+1. *Aplica Paddings*
+    * section
+    * footer
+    * header
+1. *Aplica Paddings*
+    * section
+    * footer
+    * header
+    
+
+
+    
+    
     
     
     
