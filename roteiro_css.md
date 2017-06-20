@@ -1,7 +1,8 @@
 1. **Explica:** CSS 
     * Linguagem que descreve como as coisas devem ser exibidas
     * HTML não deve acumular papeis
-    * Tag <style> </style>
+    * Criar arquivo estilo.css
+    * Importar arquivo de css <link rel="stylesheet" href="estilo.css">
     * Sintaxe de tag no CSS tag { }
     * Sintaxe propriedade: valor;
     * Inspecionar no navegador
