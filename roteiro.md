@@ -10,9 +10,9 @@
   * body
   * title
 1. Explica: Textos
-  * Título principal (deve ser único na página)
-  * Títulos secundários (pode conter vários)
-  * Parágrafos
+  * Título principal (deve ser único na página)
+  * Títulos secundários (pode conter vários)
+  * Parágrafos
 1. Cria textos do cabeçalho
   * h1 
   * p
