@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+html, button {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+body, p {
+  margin: 0;
+}
+
+header {
+  background-color: gray;
+  background-image: url("img/fundo.png");
+  background-size: cover;
+}
+
+h1, p {
+  font-weight: lighter;
+}
+
+h1, .chamada {
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+header, section, footer {
+  padding: 20px 20px 70px 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+header {
+  height: 400px;
+}
+
+nav {
+  margin-bottom: 80px;
+}
+
+img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.data {
+  font-size: 64px;
+}
+
+.vermelha {
+  background-color: #CF2227;
+}
+
+.branca {
+  color: #CF2227;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
