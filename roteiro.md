@@ -2,7 +2,8 @@
 
 1. Explica: HTML 
     * Linguagem que descreve o que são as coisas, não como devem ser exibidas
-    * Tags de abertura e fechamento, englobando elementos
+    * Exemplo: titulos, imagem, listas
+    * Usa tags de abertura e fechamento, englobando elementos
     * Arquivo com extensão .html
 1. *Cria estrutura básica com título da página e visualização*
     * html
@@ -10,7 +11,8 @@
     * body
     * title
 1. Explica: Textos
-    * Título principal (deve ser único na página)
+    * Texto sobre primeira etapa: título - h1, tópicos - h2, texto - p
+    * Título principal (deve ser único na página)
     * Títulos secundários (pode conter vários)
     * Parágrafos
 1. *Cria textos do cabeçalho*
@@ -28,6 +30,7 @@
     * Rodapé
     * Navegação
     * Pensam em outros? (Barra lateral)
+    * Identificar elementos em outros sites
 1. *Cria cabeçalho*
     * header
 1. *Cria primeira seção*
@@ -47,6 +50,7 @@
     * listas não ordenadas
     * listas ordenadas
     * links externos
+    * criar link para site do mst 
 1. *Cria rodapé com listagens*
     * footer
     * ul
