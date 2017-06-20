@@ -9,6 +9,8 @@
     * Algumas tags tem formatação padrão dada pelo navegador
     * Ordem das instruções: CSS do site > CSS do Navegador, Bloco de baixo > bloco de cima
 1. **Explica:** Família de fonte
+    * Tipos de fonte como Arial, Times New Roman
+    * Fontes padrão
     * Importar fonte
     * propriedade font-family
 1. *Aplica família da fonte*
@@ -18,7 +20,7 @@
     * tags com mesmo valor
 1. **Explica:** Cor
     * Propriedade background-color
-    * Nome da cor, hexadecimal, RGB
+    * Nome da cor, hexadecimal, www.htmlcolorcodes.com
 1. *Aplica cor de fundo do header*
 1. **Explica:** Classe
     * criando tipos de objetos com características distintas
