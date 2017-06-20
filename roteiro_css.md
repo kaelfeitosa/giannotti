@@ -5,9 +5,6 @@
     * Importar arquivo de css <link rel="stylesheet" href="estilo.css">
     * Sintaxe de tag no CSS tag { }
     * Sintaxe propriedade: valor;
-    * Inspecionar no navegador
-    * Algumas tags tem formatação padrão dada pelo navegador
-    * Ordem das instruções: CSS do site > CSS do Navegador, Bloco de baixo > bloco de cima
 1. **Explica:** Família de fonte
     * Tipos de fonte como Arial, Times New Roman
     * Fontes padrão
@@ -16,6 +13,9 @@
 1. *Aplica família da fonte*
     * importar
     * html
+    * Inspecionar no navegador
+    * Algumas tags tem formatação padrão dada pelo navegador
+    * Observar fonte do botão
     * button
     * tags com mesmo valor
 1. **Explica:** Cor
