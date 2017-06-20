@@ -11,8 +11,8 @@
     * body
     * title
 1. Explica: Textos
-    * Texto sobre primeira etapa: título - h1, tópicos - h2, texto - p
-    * Título principal (deve ser único na página)
+    * Texto sobre primeira etapa: título - h1, tópicos - h2, texto - p
+    * Título principal (deve ser único na página)
     * Títulos secundários (pode conter vários)
     * Parágrafos
 1. *Cria textos do cabeçalho*
@@ -21,6 +21,7 @@
 1. Explica: ênfase
     * Leitor de Tela
     * strong
+    * criar frase sensacionalista
 1. *Exercício: Cria textos da primeira seção*
     * h2
     * strong
