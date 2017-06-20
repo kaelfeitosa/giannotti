@@ -24,9 +24,9 @@
   * strong
 1. Explica Seções
   * Cabeçalho
-  * Seção
-  * Rodapé
-  * Navegação
+  * Seção
+  * Rodapé
+  * Navegação
   * Pensam em outros? (Barra lateral)
 1. Cria cabeçalho
   * header
