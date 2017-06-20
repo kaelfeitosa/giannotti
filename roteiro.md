@@ -14,8 +14,8 @@
   * Títulos secundários (pode conter vários)
   * Parágrafos
 1. Cria textos do cabeçalho
-  * h1 
-  * p
+  * h1 
+  * p
 1. Explica: ênfase
   * Leitor de Tela
   * strong
