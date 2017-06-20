@@ -6,8 +6,8 @@
     * Sintaxe de tag no CSS tag { }
     * Sintaxe propriedade: valor;
     * Inspecionar no navegador
-    * Algumas tags tem formatação padrão dada pelo navegador
-    * Ordem das instruções: CSS do site > CSS do Navegador, Bloco de baixo > bloco de cima
+    * Algumas tags tem formatação padrão dada pelo navegador
+    * Ordem das instruções: CSS do site > CSS do Navegador, Bloco de baixo > bloco de cima
 1. **Explica:** Família de fonte
     * Importar fonte
     * propriedade font-family
