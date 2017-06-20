@@ -94,6 +94,7 @@
 1. **Explica:** fundo
     * imagem de fundo
 1. *Aplica imagem no header*
+    * https://tinyurl.com/fundogreve
     * background-image: url("fundo.jpg");
     * background-size: cover;
 1. **Explica:** dimensões
