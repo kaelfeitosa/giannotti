@@ -1,9 +1,9 @@
 # Roteiro
 
-1. Explica HTML
-  * linguagem que descreve o que são as coisas não como devem ser exibidas
-  * tags de abertura e fechamento englobando elementos
-  * arquivo com extensão .html
+1. Explica HTML 
+  * linguagem que descreve o que são as coisas não como devem ser exibidas
+  * tags de abertura e fechamento englobando elementos
+  * arquivo com extensão .html
 1. Cria estrutura básica com título da página e visualização
   * html
   * head
