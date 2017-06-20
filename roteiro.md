@@ -53,7 +53,7 @@
     * a
 1. Explica: links na mesma página
     * ids
-    * âncora 
+    * âncora 
 1. *Cria navegação com links*
     * nav
     * ul 
@@ -61,8 +61,12 @@
 1. *Cria botão para outra página*
     * button
     * a
-    * link para outra página
+    * link para outra página
 1. *Exercício criar outra página*
 1. *Cria formulário*
+    * form
+    * input
+    * label
+    * textarea
 
  
