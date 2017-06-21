@@ -91,6 +91,8 @@
     * :hover
 1. *Aplica hover no link*
     * :hover {text-decoration: underline}
+1. *Exercício: aplica estilo de mouse apontando no botão*
+    * :hover {background-color: gray}`
 1. **Explica:** fundo
     * imagem de fundo
 1. *Aplica imagem no header*
@@ -122,8 +124,6 @@
     * margin-top: 20px;
     * padding: 10px;
     * font-size: 18px;
-1. *Exercício: aplica estilo de mouse apontando no botão*
-    * :hover {background-color: gray}
     * Ordem das instruções: Bloco de baixo > bloco de cima
 
 
