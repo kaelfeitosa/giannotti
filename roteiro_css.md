@@ -92,7 +92,7 @@
 1. *Aplica hover no link*
     * :hover {text-decoration: underline}
 1. *Exercício: aplica estilo de mouse apontando no botão*
-    * :hover {background-color: gray}`
+    * :hover {background-color: gray}`
 1. **Explica:** fundo
     * imagem de fundo
 1. *Aplica imagem no header*
