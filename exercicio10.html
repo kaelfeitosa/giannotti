@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 10</title>
+
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 40px;
+      }
+
+      #primeiro {
+        background-color: red;
+      }
+
+      #segundo {
+        background-color: green;
+      }
+
+      #terceiro {
+        background-color: blue;
+      }
+
+      #tres {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      #tres #segundo {
+        flex-grow: 1;
+      }
+
+      #dois {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Posicionamento</h1>
+    <section id="um">
+      <div id="primeiro"></div>
+      <div id="segundo"></div>
+      <div id="terceiro"></div>
+    </section>
+
+    <section id="dois">
+      <div id="primeiro"></div>
+      <div id="segundo"></div>
+      <div id="terceiro"></div>
+    </section>
+
+    <section id="tres">
+      <div id="primeiro"></div>
+      <div id="segundo"></div>
+      <div id="terceiro"></div>
+      <div id="terceiro"></div>
+      <div id="terceiro"></div>
+      <div id="terceiro"></div>
+      <div id="terceiro"></div>
+    </section>
+  </body>
+</html>
