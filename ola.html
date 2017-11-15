@@ -6,9 +6,11 @@
     <title>Olá</title>
   </head>
   <body>
-    <h1>Olá, <span></span></h1>
+    <h1>Olá,
+      <span id="nome"></span>.
+      Você tem <span id="idade"></span> anos.
+    </h1>
   </body>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
     function getUrlVar(key){
@@ -18,7 +20,9 @@
 
     $(document).ready(function(){
       var nome = getUrlVar("nome")
-      $('span').text(nome);
+      var idade = getUrlVar("idade")
+      $('#nome').text(nome);
+      $('#idade').text(idade);
     });
   </script>
 </html>
