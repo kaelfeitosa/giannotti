@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>Olá</title>
+  </head>
+  <body>
+    <h1>Olá, <span></span></h1>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    function getUrlVar(key){
+    	var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+    	return result && unescape(result[1]) || "";
+    }
+
+    $(document).ready(function(){
+      var nome = getUrlVar("nome")
+      $('span').text(nome);
+    });
+  </script>
+</html>
