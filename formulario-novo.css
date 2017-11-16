@@ -1,20 +1,15 @@
-site para cores:
-https://html-color-codes.info/Codigos-de-Cores-HTML/
-https://www.flextool.com.br/tabela_cores.html
-
-
-{
-background: #25A3FF;  No lugar do nome ingles pode colocar o cdg da cor.
-width: 380px;   aumenta o tamanho largura.
-font-family: sans-serif; tipo de fonte.
-border-radius: 30px; permite definir como bordas arredondadas
+section {
+  background: #25A3FF;
+  width: 380px;
+  font-family: sans-serif;
+  border-radius: 30px;
 }
 
 h1 {
-  color: white; forma de colcar cor na fonte.
-  padding: 20px; espaço entre conteudo até a bord caso tenha borda.
-  text-transform: uppercase; deixa todo texto em caixa alta ex: MOVIMENTO SEM TERRA
-  text-align: Faz o alinhamento de texto na horizontal do texto em um elemento.;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
   margin: 0;
 }
 
