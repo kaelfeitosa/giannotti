@@ -1,0 +1,45 @@
+section {
+  background: #25A3FF;
+  width: 380px;
+  font-family: sans-serif;
+  border-radius: 30px;
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.campo {
+  display: block;
+  border-width: 0;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.enviar {
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  height: 60px;
+  border-radius: 30px;
+  width: 340px;
+  margin-top: 0;
+}
+
+.enviar:hover {
+  background: #25A3FF;
+  color: white;
+}
+
+.campo:hover, .campo:focus {
+  outline: none;
+  background: #25A3FF;
+  color: white;
+}
