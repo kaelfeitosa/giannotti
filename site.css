@@ -1,0 +1,106 @@
+
+html {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+nav, aside {
+  width: 200px;
+  padding: 20px;
+}
+
+.principal {
+  width: 500px;
+  padding: 20px;
+}
+
+.principal img {
+  width: 100%;
+}
+
+header {
+  background-image: url("negra.png");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px 100px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 36px;
+  text-shadow: 2px 2px 15px black;
+}
+
+.subtitulo {
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 15px black;
+}
+
+.menu {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.menu li + li {
+  border-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1818em;
+}
+
+.bloco {
+  padding-bottom: 20px;
+}
+
+footer {
+  padding: 50px 100px;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}

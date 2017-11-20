@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Brasil de Fato</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      header, footer {
+        height: 150px;
+        background: #8c191f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+
+      main {
+        display: flex;
+      }
+
+      nav, aside {
+        width: 220px;
+      }
+
+      section {
+        flex: 1;
+      }
+
+      .cartão {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px;
+        border-radius: 15px;
+        font-family: sans-serif;
+        margin: 10px;
+      }
+
+      .cartão img {
+        width: 200px;
+        border-radius: 10px;
+      }
+
+      .corpo {
+        flex: 1;
+        padding-left: 10px;
+      }
+
+      .menu {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #8c191f;
+        padding: 0;
+      }
+
+      .menu li {
+        list-style-type: none;
+        padding: 10px;
+        font-weight: bold;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        text-align: center;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      aside img {
+        width: 90%;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Brasil de Fato</h1>
+    </header>
+    <main>
+      <nav>
+        <ul class="menu">
+          <li>Opinião</li>
+          <li>Política</li>
+          <li>Cultura</li>
+          <li>Internacional</li>
+        </ul>
+      </nav>
+      <section>
+        <div class="cartão">
+          <img class="imagem" src="foto1.jpg">
+          <section class="corpo">
+            <h2 class="título">Decisão judicial pede despejo de 10 mil famílias em Guarulhos</h2>
+            <p>
+              Pedido do MP afirma que as ocupações estão localizadas em áreas de risco ou em áreas de preservação ambiental
+            </p>
+          </section>
+        </div>
+        <div class="cartão">
+          <img class="imagem" src="foto2.jpg">
+          <section class="corpo">
+            <h2 class="título">O empoderamento da mulher também vem pelo samba</h2>
+            <p>
+              Fabiola Machado, do grupo Moça Prosa, fala da importância do resgate de composições femininas
+            </p>
+          </section>
+        </div>
+        <div class="cartão">
+          <img class="imagem" src="foto3.jpg">
+          <section class="corpo">
+            <h2 class="título">Dilma diz que 2018 será oportunidade para país retomar a democracia</h2>
+            <p>
+              “Não há como aprovar mais medidas antipopulares, como a reforma da Previdência, elas não passam”, frisou a ex-presidenta
+            </p>
+          </section>
+        </div>
+      </section>
+      <aside>
+        <img src="foto4.jpg"></img>
+        <img src="foto5.png"></img>
+      </aside>
+    </main>
+    <footer>
+      Feito com Amor
+    </footer>
+  </body>
+</html>
