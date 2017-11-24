@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Modelo 1</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,800');
+
+      header, footer {
+        height: 150px;
+        background-color: cadetblue;
+
+      }
+      header {
+        height: 350px;
+        background-image: url("negra.png");
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        padding: 50px;
+      }
+
+      body, h1 {
+        margin: 0;
+        font-family: 'Libre Franklin', sans-serif;
+      }
+
+      body {
+      }
+
+      h1 {
+        color: white;
+        text-shadow: 2px 2px 15px black;
+        font-weight: 800;
+      }
+
+      main {
+        width: 500px;
+        padding: 20px;
+      }
+
+      nav, aside {
+        width: 150px;
+        background: white;
+      }
+
+      aside {
+        padding: 20px;
+      }
+
+      .meio {
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: lightgray;
+        padding: 3px;
+      }
+
+      li:hover {
+        font-weight: bolder;
+      }
+
+      li + li {
+        border-top: 0;
+      }
+
+      h2 {
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+
+      nav {
+        padding: 20px;
+        display: none;
+      }
+
+      .hamburguer {
+        font-size: 30px;
+        color: white;
+        padding-right: 5px;
+      }
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+      $(function(){
+        $(".hamburguer").click(function(){
+          $("nav").fadeIn();
+        })
+
+        $(".hamburguer").dblclick(function(){
+          $("nav").fadeOut();
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <span class="hamburguer">&#9776;</span>
+      <a href="modelo5.html"><h1>LUTA NEGRA</h1></a>
+    </header>
+    <section class="meio">
+      <nav>
+        <h2>Menu</h2>
+        <ul class="menu">
+          <li>
+            <a href="https://www.brasildefato.com.br">Página inicial</a>
+          </li>
+          <li>
+            <a href="https://www.brasildefato.com.br">Blog</a>
+          </li>
+          <li>
+            <a href="https://www.brasildefato.com.br">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Principal</h2>
+        <p>
+          A migração nordestina para a Amazônia foi menor do que previa o general Emílio Garrastazu Médici – terceiro a ocupar a Presidência durante a ditadura militar –, mas as famílias retirantes deixaram suas digitais em cada povoado às margens da Rodovia Transamazônica. É quase uma contradição geográfica: à medida que se avança pelo Pará no sentido leste-oeste, o legado cultural nordestino aparece de maneira mais evidente aos olhos do viajante. As camisas dos clubes de futebol de Belém – Paysandu e Remo – são substituídas pelas cores do Sport Recife, do Moto Club de São Luís e de seus rivais.
+        </p>
+      </main>
+      <aside>
+        <section>
+          <h2>Parceiros</h2>
+          <ul class="menu">
+            <li>
+              <a href="https://www.brasildefato.com.br">Brasil de Fato</a>
+            </li>
+            <li>
+              <a href="https://www.brasildefato.com.br">MST</a>
+            </li>
+            <li>
+              <a href="https://www.brasildefato.com.br">Escola Florestan</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Colunistas</h2>
+          <ul class="menu">
+            <li>
+              <a href="https://www.brasildefato.com.br">Brasil de Fato</a>
+            </li>
+            <li>
+              <a href="https://www.brasildefato.com.br">MST</a>
+            </li>
+            <li>
+              <a href="https://www.brasildefato.com.br">Escola Florestan</a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+    <footer>
+      Rodapé
+    </footer>
+  </body>
+</html>
